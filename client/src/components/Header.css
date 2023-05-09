@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 20px;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+   
+  }
+  
+  .material-symbols-sharp.icons-2 {
+    font-size: 70px;
+    border: 5px dotted  black;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    animation: spin 4s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

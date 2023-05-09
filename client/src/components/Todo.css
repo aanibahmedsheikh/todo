@@ -1,0 +1,52 @@
+.my-todo-list{
+    background-color: black;
+    margin-top: 35px;
+    margin-right: 20px;
+    color: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+    text-transform: capitalize;
+    overflow-y: scroll;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 3px solid;
+    font-weight: bold;
+
+}
+.my-todo-list:hover{
+    border: 3px  dotted;
+}
+
+.my-icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    text-decoration: none;
+   
+}
+.my-icons{
+    text-decoration: none;
+    border-bottom: none;
+    border: 1px solid black;
+    padding: 2px;
+
+
+}
+.my-icons:hover{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.edit-todo{
+    width: 800px;
+    border-radius: 20px;
+    border: 1px dotted green;
+    font-size: large;
+    
+}

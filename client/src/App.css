@@ -1,0 +1,65 @@
+Todos{
+  overflow-x: hidden;
+}
+.button{
+  
+  margin-top: 150px;
+  display: inline-block;
+  justify-content:center;
+  margin-left: 10px;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  transition: all 0.3s ease;
+  background-color: #2A1449;
+  
+  color: white;
+  
+  
+  
+}
+.button.selected {
+  color: white;
+  background-color: green;
+  border: none;
+  border: none;
+  width: 100px;
+  transition: all 0.3s ease;
+  top: -50px;
+  position: fixed;
+  
+
+}
+.my-remove-button {
+  margin-left: 15px;
+  border: none;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  transition: all 0.3s ease;
+  top: 150px;
+  top: 100px;
+  position: fixed;
+  background-color: #ee1630;
+  color: white;
+
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+  border: none;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  position: fixed;
+}
+
+.button:hover{
+  background-color: green;
+  border: none;
+  color: white;
+
+}
